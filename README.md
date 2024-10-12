@@ -1,4 +1,4 @@
-## Memory game (in development only)
+## Memory game (dev)
 * in `./memory-game` folder
   * install dependencies
   `yarn install`
