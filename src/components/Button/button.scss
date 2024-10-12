@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.button {
+  font-size: $font-size-2;
+  font-weight: bold;
+  padding: 10px 15px;
+  max-width: 500px;
+  background-color: $yellow-500;
+  box-shadow: $shadow;
+  border: 1px solid $black;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: $hover;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  box-shadow: $shadow-1;
+}

@@ -1,0 +1,56 @@
+@import './variables.scss';
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, $yellow-500 0%, $yellow-100 100%);
+  background-attachment: fixed;
+  user-select: none;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.yellow-100 {
+  color: $yellow-100;
+}
+
+.yellow-200 {
+  color: $yellow-200;
+}
+
+.yellow-300 {
+  color: $yellow-300;
+}
+
+.yellow-400 {
+  color: $yellow-400;
+}
+
+.yellow-500 {
+  color: $yellow-500;
+}
+
+.yellow-600 {
+  color: $yellow-600;
+}
+
+.yellow-700 {
+  color: $yellow-700;
+}
+
+.yellow-800 {
+  color: $yellow-800;
+}
+
+.yellow-900 {
+  color: $yellow-900;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
