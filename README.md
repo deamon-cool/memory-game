@@ -4,3 +4,11 @@
   `yarn install`
   * run in `./memory-game` folder:
   `yarn dev`
+
+## Technologies
+* React
+* Vite
+* Typescript
+* Zustand
+* SASS / SCSS
+* HTML
